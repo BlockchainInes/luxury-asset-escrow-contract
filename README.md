@@ -1,6 +1,6 @@
+# Luxury Asset Escrow Payment System
 # luxury-asset-escrow-contract
 A Solidity-based smart contract for secure luxury asset transactions using an automated escrow system on Ethereum.
-# Luxury Asset Escrow Payment System
 
 This project features a Smart Contract designed for high-value asset transactions (e.g., luxury yachts or real estate). It ensures trust between buyers and sellers by holding funds in escrow until the delivery is confirmed.
 
