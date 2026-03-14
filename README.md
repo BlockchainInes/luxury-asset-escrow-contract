@@ -9,6 +9,18 @@ This project features a **Solidity smart contract** designed for high-value asse
 * **Wallet:** MetaMask
 
 ## 🔗 Blockchain Proof (Live Demo)
+The contract and its lifecycle can be verified on **Etherscan**:
+
+1.  **Smart Contract Address:** [`0x47FcC1aE8De00ab6500dfBD299C355b8B0c84cd1`](https://sepolia.etherscan.io/address/0x47fcc1ae8de00ab6500dfbd299c355b8b0c84cd1)
+2.  **Contract Deployment:** [View Successful Deployment](https://sepolia.etherscan.io/tx/0xf187b66ec791a6e2cc5c9a97f9a6e07ce50285d24c38306c8e3a25ae370035b8)
+3.  **Secure Deposit (Escrow Locked):** [View Deposit for "Yacht_01"](https://sepolia.etherscan.io/tx/0x77b81805bd724b327d8bbe8cab564edc9fe00f91d43cb4cec8856e7cba3df9ce)
+    * *(Note: This transaction confirms the asset registration in the escrow system.)*
+4.  **Successful Release (Final Payout):** [View Final Payment](https://sepolia.etherscan.io/tx/0x78591e2ddb0dc2ea3a46c2397dab68261f5a004e1722576085f56e2ffbe7b625)
+    * *(Note: This confirms the final state change and successful contract execution.)*
+
+
+
+## 🔗 Blockchain Proof (Live Demo)
 The contract and its lifecycle can be verified on Etherscan:
 
 1. **Smart Contract Address:** [0x47FcC1aE8De00ab6500dfBD299C355b8B0c84cd1](https://sepolia.etherscan.io/address/0x47fcc1ae8de00ab6500dfbd299c355b8b0c84cd1)
