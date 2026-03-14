@@ -9,25 +9,6 @@ This project features a Smart Contract designed for high-value asset transaction
 - **Network:** Ethereum Sepolia Testnet
 - **Wallet:** MetaMask
 
-🔗 Blockchain Proof (Live Demo)
-The complete lifecycle of this smart contract is recorded immutably on the Ethereum Sepolia Testnet. You can verify the technical execution and state transitions through the following Etherscan links:
-
-Smart Contract Address: 0x47FcC1aE8De00ab6500dfBD299C355b8B0c84cd1
-
-The main dashboard showing the contract's code, balance, and full transaction history.
-
-Contract Deployment: View Transaction
-
-The successful initialization of the LuxuryAssetPayment contract on the blockchain.
-
-Secure Deposit (Escrow Initiation): View Deposit for "Yacht_01"
-
-Verification of the asset registration and the secure locking of the payment process within the contract.
-
-Successful Release (Final Payout): View Final Payment
-
-The final milestone: proof of the successful fund release from the escrow to the seller after delivery confirmation.
-
 ## 🔗 Blockchain Proof (Live Demo)
 The contract and its lifecycle can be verified on Etherscan:
 
