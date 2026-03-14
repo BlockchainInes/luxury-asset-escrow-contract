@@ -1,5 +1,23 @@
-# Luxury Asset Escrow Payment System
-A Solidity-based smart contract for secure luxury asset transactions using an automated escrow system on Ethereum.
+🚀 Luxury Asset Escrow - Technical Documentation
+Below is a visual walkthrough of the deployment and execution phases of the LuxuryAssetPayment smart contract.
+
+1. Contract Deployment & Verification
+The contract was developed using the Remix IDE and successfully deployed to the Ethereum Sepolia Testnet. The terminal confirms successful verification on Blockscout and Routescan.
+
+2. Escrow Initiation (Deposit)
+To start a transaction for a luxury asset (e.g., "Yacht_01"), the buyer calls the depositPayment function. This step registers the seller's address and the asset identifier within the immutable ledger.
+
+3. Web3 Wallet Interaction
+All transactions require secure authorization. This image shows the MetaMask interface confirming the interaction with the smart contract, ensuring transparency and security for the user.
+
+4. Finalized Transaction State
+Once the payment is released, the contract state updates. The decoded output below confirms:
+
+isCompleted: true: The funds have been successfully transferred to the seller.
+
+isDisputed: false: The transaction was finalized without any legal discrepancies.
+
+assetIdentifier: Correctly mapped to "Yacht_01".
 
 This project features a Smart Contract designed for high-value asset transactions (e.g., luxury yachts or real estate). It ensures trust between buyers and sellers by holding funds in escrow until the delivery is confirmed.
 
@@ -22,7 +40,17 @@ The contract and its lifecycle can be verified on Etherscan:
 4. **Successful Release (Final Payout):** [View Final Payment](https://sepolia.etherscan.io/tx/0x78591e2ddb0dc2ea3a46c2397dab68261f5a004e1722576085f56e2ffbe7b625)
    *(Note: This confirms the final state change and successful contract execution.)*
 
-## 🚀 Features
-- **Escrow Mechanism:** Funds are held by the contract and only released by the buyer.
-- **Transaction Tracking:** Every payment is assigned a unique ID for transparency.
-- **Public Verifiability:** All records are stored immutably on the Ethereum blockchain.
+📸 Technical Implementation & Proof
+Below is the step-by-step verification of the contract's functionality.
+
+1. Contract Deployment
+Description: This shows the successful deployment of the LuxuryAssetPayment contract using the Remix IDE. The terminal confirms that the contract source code has been verified on Blockscout and Routescan, ensuring full transparency.
+
+2. Initiating the Escrow (Deposit)
+Description: In this step, the depositPayment function is called. We register a new transaction by providing the seller's address and the asset reference "Yacht_01". This demonstrated the contract's ability to map real-world assets to blockchain transactions.
+
+3. Web3 Authorization
+Description: To ensure security, every transaction must be signed via a Web3 wallet. This screenshot captures the MetaMask confirmation request, showing the interaction with our deployed contract on the Sepolia network.
+
+4. Final Transaction State
+Description: After the payment release, we verify the internal state of the contract. The decoded output confirms that the transaction is completed (isCompleted: true) and that no disputes were raised (isDisputed: false), successfully finalizing the deal for "Yacht_01".
